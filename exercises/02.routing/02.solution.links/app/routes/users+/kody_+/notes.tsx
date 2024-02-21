@@ -16,7 +16,7 @@ export default function NotesRoute() {
 						<NavLink
 							to="some-note-id"
 							className={({ isActive }) =>
-								cn('underline', isActive && 'bg-accent')
+								cn ('underline', isActive && 'bg-accent')
 							}
 						>
 							Some Note
